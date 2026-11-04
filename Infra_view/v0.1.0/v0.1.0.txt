@@ -1,0 +1,18 @@
+Versão: v0.1.0
+
+Data: 01/10/2026
+
+Funcionando:
+
+[X] ESP-NOW TX/RX
+[X] DS18B20
+[X] Dashboard Web
+[X] RSSI
+[X] Sensor Offline
+[X] Wi-Fi Gateway
+[X] Estrutura modular (.h/.cpp)
+
+Observações:
+- Necessário delay(500) após WiFi.mode(WIFI_STA) para coletar e exibir corretamente o MAC address ao iniciar o ESP.
+- arquivo webserver.h renomeado para web_server.h para evitar conflito com a biblioteca WebServer.h 
+- Dashboard ajustado para melhor visualização em celular e desktop.
